@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-mui-clerkauth-typescript",
+  "name": "nextjs-mui-clerkauth-drizzle-pg-typescript",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest",
+    "db-generate": "drizzle-kit generate",
+    "db-migrate": "drizzle-kit migrate",
+    "db-pull": "drizzle-kit pull",
+    "db-push": "drizzle-kit pull"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.14",
@@ -22,15 +26,21 @@
     "@mui/x-date-pickers": "^7.24.0",
     "@mui/x-tree-view": "^7.24.0",
     "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.4",
     "next": "^15.1.5",
     "path-to-regexp": "^8.2.0",
+    "pg": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/node": "latest",
+    "@types/pg": "^8.11.10",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "drizzle-kit": "^0.30.2",
     "eslint": "latest",
     "eslint-config-next": "^15.1.5",
     "typescript": "latest"
