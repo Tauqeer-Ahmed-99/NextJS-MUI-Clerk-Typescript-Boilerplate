@@ -27,6 +27,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-nex
    NEXT_PUBLIC_CLERK_SIGN_IN_URL=<Your Clerk Sign-In URL>
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<Your Clerk Publishable Key>
    CLERK_SECRET_KEY=<Your Clerk Secret Key>
+   DATABASE_URL=<Your Database URL (PostgreSQL + DrizzleORM)>
 
    ```
 
