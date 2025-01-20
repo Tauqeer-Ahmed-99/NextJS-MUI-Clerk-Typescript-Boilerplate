@@ -1,6 +1,6 @@
 # Next.js + MUI + Clerk Auth + PostgreSQL + Drizzle ORM + TypeScript Boilerplate
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app), with [Material UI](https://mui.com/) and [Clerk Authentication](https://clerk.dev/) integrated, and written in TypeScript.
+This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app), with [Material UI](https://mui.com/), [Clerk Authentication](https://clerk.dev/), [PostgreSQL](https://www.postgresql.org/), [Drizzle ORM](https://orm.drizzle.team/) integrated, and written in TypeScript.
 
 ## Features
 
