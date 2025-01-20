@@ -8,12 +8,13 @@ import { usePathname } from "next/navigation";
 import routes from "@/routes";
 import Stack from "@mui/material/Stack";
 import Header from "@/components/Header";
+import { match } from "path-to-regexp";
 
 const NavbarProvider = ({ children }: { children: ReactNode }) => {
   const pathname = usePathname();
 
-  const showNavBar = routes.find(
-    (route) => route.path === pathname
+  const showNavBar = routes.find((route) =>
+    match(route.path)(pathname)
   )?.showNavbar;
 
   return (
