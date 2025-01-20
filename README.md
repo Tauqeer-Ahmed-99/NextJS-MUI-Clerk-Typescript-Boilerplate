@@ -1,15 +1,15 @@
 # Next.js + MUI + Clerk Auth + PostgreSQL + Drizzle ORM + TypeScript Boilerplate
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app), with [Material UI](https://mui.com/), [Clerk Authentication](https://clerk.dev/), [PostgreSQL](https://www.postgresql.org/), [Drizzle ORM](https://orm.drizzle.team/) integrated, and written in TypeScript.
+This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app), with [Material UI](https://mui.com/), [Clerk Authentication](https://clerk.dev/), [PostgreSQL](https://www.postgresql.org/), [Drizzle ORM](https://orm.drizzle.team/) integrated, and written in [TypeScript](https://www.typescriptlang.org/).
 
 ## Features
 
-- Next.js: A fast React framework with optimized server-side rendering and static site generation.
-- Material UI: A popular React UI framework for building responsive and accessible user interfaces.
-- Clerk Authentication: A complete user management and authentication solution, easily integrated with Next.js.
-- PostgreSQL: A powerful, open source object-relational database system know for reliability, feature robustness, and performance.
-- Drizzle ORM: Drizzle ORM is a headless TypeScript ORM with a head.
-- TypeScript: Provides static typing to catch errors early and improve code maintainability.
+- [Next.js](https://nextjs.org/): A fast React framework with optimized server-side rendering and static site generation.
+- [Material UI](https://mui.com/): A popular React UI framework for building responsive and accessible user interfaces.
+- [Clerk Authentication](https://clerk.dev/): A complete user management and authentication solution, easily integrated with Next.js.
+- [PostgreSQL](https://www.postgresql.org/): A powerful, open source object-relational database system know for reliability, feature robustness, and performance.
+- [Drizzle ORM](https://orm.drizzle.team/): Drizzle ORM is a headless TypeScript ORM with a head.
+- [TypeScript](https://www.typescriptlang.org/): Provides static typing to catch errors early and improve code maintainability.
 
 ## How to Use
 
