@@ -36,7 +36,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-nex
    ```bash
    npm install
    npm run dev
-
    ```
 
 4. Open http://localhost:3000 in your browser to see the result.
